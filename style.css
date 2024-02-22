@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    --swiper-theme-color: #007aff;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/*heder*/
+header{
+    background: #052c65;
+}
+.logo{
+    color: #fff;
+}
+header .navbar-nav ul a{
+    text-decoration: none;
+    color: var(--primary-color);
+    color: #fff;
+}
+header .btns a{
+    padding: 8px 20px;
+    background-color: #052c65;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #007aff;
+    list-style: none;
+    text-decoration: none;
+
+}
+/*section1*/
+   #hero{
+    background: #37517e;
+   
+
+}
+section {
+    padding: 150px 0px;
+}
+img{
+    min-width: 100%;
+}
+#hero h1{
+    color: #fff;
+    font-size: 30px;
+}
+#hero h2{
+  color: #fff;
+  font-size: 30px;
+}
+.button a{
+    padding: 8px 20px;
+    background-color:  #007aff;
+    color: #fff;
+    border-radius: 20px;
+    border: 2px solid #007aff;
+    list-style: none;
+    text-decoration: none;
+}
+span{
+    padding: 8px 20px;
+    font-size: 20px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+#content{
+    padding: 12px 0;
+    text-align: center;
+    background-color: #F1F1F3;
+    box-sizing: border-box;
+}
+.rov{
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfd;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    gap: 25px;
+}
+.rov img{
+    padding: 10px;
+    width: 150px;
+    
+}
+/*section3*/
+#clas{
+    padding: 60px 0;
+}
+#clas h2{
+    color: #052c65 ;
+    padding: 20px 0;
+}
+#clas a{
+   border: 1px solid #007aff;
+    border-radius: 5px;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+
+/*section4*/
+#section{
+    background: #f3f5fa;
+    padding: 60px 0;
+}
+#section h2{
+    color: #007aff;
+}
+#section .list{
+    padding: 0 px 100px 60px 100px ;
+    box-sizing: border-box;
+}
+#section .list .item1{
+    background-color: #fff;
+    color: #495057;
+     border: 1px solid #f3f5fa;
+}
+#section .list .item2{
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #f3f5fa;
+}
+#section .list .item3{
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #f3f5fa;
+}
+#section span{
+    color: #007aff;
+}
+
+#section .row img{
+    padding: 10px;
+    width: 150px;
+    min-width: 100%;
+}
